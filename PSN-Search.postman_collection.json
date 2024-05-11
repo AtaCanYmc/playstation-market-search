@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "68d3756d-c4bd-4c57-accb-be539e49aebc",
+		"name": "PSN Search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27213095"
+	},
+	"item": [
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/search-psn?query=bloodborne",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"search-psn"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "bloodborne"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
