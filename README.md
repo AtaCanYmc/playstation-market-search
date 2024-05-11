@@ -47,12 +47,12 @@ By default, the server will run on port 3000. You can change the port by setting
 ## Endpoints
 The API provides the following endpoint:
 
-- `/search?q=searchTerm`: Search for games on the PlayStation Store based on the provided search term.
+- `/search?query=searchTerm`: Search for games on the PlayStation Store based on the provided search term.
 
 Example usage:
 
 ```http
-GET /search?q=spiderman
+GET /search?query=spiderman
 ```
 
 Response:
